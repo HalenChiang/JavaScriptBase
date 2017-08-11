@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+ul li{
+    list-style: none;
+}
+.main{
+    width: 500px;
+    margin: 200px auto;
+    border: 1px solid red;
+}
+#item{
+    position: relative;
+    cursor: pointer;
+}
+#item li{
+    font-weight: bolder;
+    float: left;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    opacity: 1;
+    filter: alpha(opacity=50);
+}

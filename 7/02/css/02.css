@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.main{
+    width: 312px;
+    margin: 100px auto;
+    border: 1px solid red;
+}
+ul li{
+    list-style: none;
+    height: 31px;
+    line-height: 31px;
+}
+ul li:hover{
+    background: #f7ffff;
+}
+ul li label{
+    cursor: pointer;
+}
+.name{
+    margin-left: 8px;
+}
+input{
+    margin-left: 17px
+}
+#item{
+    position: relative;
+}
+.author{
+    position: absolute;
+    left: 208px;
+}
+#item_btn li{
+    float: left;
+    margin-right: 8px;
+}
+#item_btn a{
+    display: inline-block;
+    width: 63px;
+    height: 23px;
+    line-height: 23px;
+    border: 1px solid #efefef;
+    text-align: center;
+    text-decoration: none;
+    color: #9c9c9c;
+}
+#item_btn a img{
+    margin-right: 8px;
+}
+.active{
+    color: black !important;
+}

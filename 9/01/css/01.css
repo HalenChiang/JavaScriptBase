@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#main{
+    margin: 100px auto;
+    position: relative;
+}
+#main div{
+    width: 50px;
+    height: 50px;
+    background: red;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    top: 0;
+    left: 0;
+}

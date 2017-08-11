@@ -1,0 +1,118 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    padding: 15px;
+    border: 1px solid #EFEFEF;
+    width: 800px;
+    height: 500px;
+    background-color: #EFEFEF;
+}
+.header{
+    height: 60px;
+}
+.header span{
+    font-size: 28px;
+    font-weight: bolder;
+}
+.header #set{
+    text-decoration: none;
+    display: inline-block;
+    width: 80px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+}
+#box{
+    width: 100px;
+    height: 100px;
+    background: white;
+    border: 5px solid black;
+}
+.modal{
+    visibility: hidden;
+    width: 832px;
+    height: 532px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    filter:alpha(opacity=50);               
+    -moz-opacity:0.5;          
+    -khtml-opacity: 0.5;          
+    opacity: 0.5; 
+    background-color: #333;
+}
+.modalData{
+    width: 300px;
+    height: 200px;
+    margin: 240px 10px 10px 440px;
+    background-color: white;
+    border: 15px solid grey;
+}
+.modalData{
+    padding: 15px;
+}
+.modalData div{
+    margin-bottom: 8px;
+}
+.modalData span{
+    font-size: 16px;
+}
+.modalData a{
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    border: 1px solid grey;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+}
+.modalData a:hover{
+    background-color: #EF9400;
+}
+.modalData .red{
+    background-color: #9CCE00;
+    border-color: #9CCE00;
+    color: white;
+}
+.modalData .red:hover{
+    background-color: red;
+    border: 1px solid black;
+}
+.modalData .yellow{
+    background-color: #EFBD00;
+    border-color: #EFBD00;
+    color: white;
+}
+.modalData .yellow:hover{
+    background-color: yellow;
+    border: 1px solid black;
+}
+.modalData .blue{
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
+.modalData .blue:hover{
+    background-color: blue;
+    border: 1px solid black;
+}
+.btnDiv{
+    text-align: center;
+    padding-top: 30px;
+}
+.modalData .btnDiv a{
+    width: 60px;
+    height: 30px;
+    border: 1px solid #002952;
+    background-color: #002952;
+    color: white;
+}

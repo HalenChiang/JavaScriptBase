@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    width: 294px;
+    margin: 100px auto;
+    border: 1px solid #ff6300;
+    padding: 5px 3px;
+}
+ul, img{
+    float: left;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 2px;
+}
+ul li a{
+    display: inline-block;
+    width: 48px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border: 1px solid #ffadad;
+    font-size: 12px;
+}
+#img{
+    margin: 1px 5px;
+}
+.active{
+    background: #ff637b !important;
+    }
+.active a{
+    color: white !important;
+}

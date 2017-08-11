@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.main{
+    width: 900px;
+    margin: 100px auto;
+}
+#item{
+    position: relative;
+}
+ul li{
+    list-style: none;
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-right: 10px;
+}
+ul li img{
+    width: 100px;
+    height: 100px;
+}

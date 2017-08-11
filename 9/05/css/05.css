@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.main{
+    width: 708px;
+    margin: 100px auto;
+    border: 1px solid #73bdef;
+    font-size: 12px;
+}
+#tabs{
+    height: 39px;
+    background: url(../images/tabbg.png) repeat-x;
+}
+#tabs img{
+    vertical-align: text-bottom;
+}
+#tabs p, #tabs img{
+    float: left;
+}
+#tabs p{    
+    margin-top: 11px;
+    margin-right: 10px;
+}
+.btn{
+    width: 80px;
+    height: 26px;
+    line-height: 28px;
+    text-indent: 14px;
+    background: url(../images/btnbg.png) no-repeat 16px 10px;
+    border: 1px solid #73bdef;
+    color: #086ba5;
+    cursor: pointer;
+}
+.active{
+    height: 26px !important;
+    text-indent: 34px !important;
+    background: white url(../images/active.png) no-repeat 16px 10px !important;
+    color: #087b00 !important;
+    border-bottom: 1px solid white;
+}
+.left, .right, .right ul li{
+    float: left;
+}
+.img li{
+    width: 165px;
+}
+.img p{
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;  /*限制在一个块元素显示的文本的行数*/
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.left img{
+    border: 5px solid #a5def7;
+}
+.tab_contain{
+    padding: 10px;
+    text-align: center;
+}
+.tab_contain p{
+    line-height: 22px;
+}
+.title{
+    color: #00009c;
+}
+.left{
+    margin-right: 5px;
+}
+.page a{    
+    display: inline-block;
+}
+.page li{
+    margin-left: 10px;
+}
+.pre, .next{
+    width: 17px;
+    height: 17px;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    background: url(../images/dots.png) no-repeat;
+}
+.activedot{
+    background: url(../images/dot.png) no-repeat !important;
+}
+.pre{
+    background: url(../images/pre.png) no-repeat;
+}
+.next{
+    background: url(../images/next.png) no-repeat;
+}
+.right{
+    position: relative;
+    width: 495px;
+    height: 194px;
+    overflow: hidden;
+}
+#images{
+    width: 1485px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#page{
+    position: absolute;
+    bottom: 0px;
+    left: 30%;
+}
+/*#geek{
+    display: none;
+}*/

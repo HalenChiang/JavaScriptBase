@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>模拟手机聊天</title>
+	<link rel="stylesheet" type="text/css" href="css/02.css">
+</head>
+<body>
+<div id="main">
+	<div id="content">
+	</div>
+	<div id="dialog">
+		<span><img src="img/stars1.png" id="diaImg" data-belongs="one" /></span>
+		<input type="text" name="diaText" id="diaText">
+		<a href="javascript:;" id="send" class="send">发送</a>
+	</div>
+</div>
+<script type="text/javascript">
+	var oSend = document.getElementById('send'),
+		oDiaText = document.getElementById('diaText'),
+		oDiaImg = document.getElementById('diaImg'),
+		oDia = document.getElementById('content'),
+		flag = true;
+	oSend.onclick = function() {
+		var belongs = oDiaImg.getAttribute('data-belongs'),
+			diaImg = oDiaImg.src,
+			diaText = oDiaText.value,
+			str = oDia.innerHTML;
+		// if(belongs === 'one'){
+		// 	str += '<div class="dialogA dia"><span>' + diaText + '</span><img src="' + diaImg + '" /></div>';
+		// }else{
+		// 	str += '<div class="dialogB dia"><img src="' + diaImg + '" /><span>' + diaText + '</span></div>';
+		// }
+		if(flag){
+			str += '<div class="dialogA dia"><span>' + diaText + '</span><img src="' + diaImg + '" /></div>';
+		}else{
+			str += '<div class="dialogB dia"><img src="' + diaImg + '" /><span>' + diaText + '</span></div>';
+		}
+		if(diaText == ''){
+			alert('请输入内容~');
+		}else{
+			oDia.innerHTML = str;
+			oDiaText.value = '';
+		}
+	};
+	oDiaImg.onclick = function() {
+		// var thisBelongs = this.getAttribute('data-belongs');
+		// if(thisBelongs === 'one'){
+		// 	this.src = 'img/stars2.png';
+		// 	this.setAttribute('data-belongs' , 'two');
+		// }else{
+		// 	this.src = 'img/stars1.png';
+		// 	this.setAttribute('data-belongs' , 'one');
+		// }
+		if(flag){
+			this.src = 'img/stars2.png';
+			flag = false;
+		}else{
+			this.src = 'img/stars1.png';
+			flag = true;
+		}
+	};
+</script>
+</body>
+</html>

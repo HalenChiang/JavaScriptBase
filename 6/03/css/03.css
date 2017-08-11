@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.main{
+    width: 268px;
+    margin: 10px auto;
+    background: #dee7e7;
+    padding: 10px 6px 0;
+    font-size: 12px;
+}
+.rank{
+    float: left;
+    font-size: 18px;
+    color: #103142;
+}
+.rank p{
+    width: 132px;
+    height: 27px;
+    padding-left: 14px;
+    border-bottom: 1px solid #94bdd6;
+}
+.tab_menu ul li{
+    float: left;
+    width: 35px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #185273;
+    border: 1px solid #94bdd6;
+    cursor: pointer;
+}
+.active{
+    background: white;
+    color: #000;
+    border-bottom-color: white !important;
+}
+.tab_content{
+    clear: both;
+}
+.tab_content .title, .more{
+    height: 27px;
+    line-height: 27px;
+    padding-left: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.tab_content .title{
+    border-bottom: 1px dashed white; 
+    cursor: pointer;
+}
+.tab_content .num{
+    display: inline-block;
+    width: 17px;
+    height: 13px;
+    line-height: 13px;
+    text-align: center;
+    background: #21638c;
+    color: white;
+    margin-right: 12px;
+}
+.tab_content .content{
+    background: white;
+    padding: 7px 7px 7px 8px;
+    display: none;
+}
+.tab_content .content img{
+    border: 1px solid #dee7e7;
+    vertical-align: top;
+}
+.tab_content .content .play{
+    display: inline-block;
+    width: 41px;
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    background: #21638c;
+    color: white;
+    margin-top: 9px;
+    *margin-top: -66px; /*css hack*/
+    *margin-right: 10px;
+    float: right;
+}
+.more{
+    float: right;
+}
+.week, .all{
+    clear: both;
+    display: none;
+}

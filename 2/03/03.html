@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>图片切换</title>
+	<link rel="stylesheet" type="text/css" href="css/03.css">
+</head>
+<body>
+<div class="main">
+	<div class="header">
+		<input type="button" id="loop" name="loop" value="循环切换">
+		<input type="button" id="order" name="order" value="顺序切换">
+		<p id="choice" class="loop">图片可从最后一张跳转到第一张循环切换</p>
+	</div>
+	<div class="container" id="container">
+		<a id="prev" href="javascript:;"><</a>
+		<a id="next" href="javascript:;">></a>
+		<p id="text">数据正在加载……</p>
+		<span id="span1">数据正在加载……</span>
+		<div class="imgDiv">
+			<img id="img">
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="js/03.js"></script>
+</body>
+</html>

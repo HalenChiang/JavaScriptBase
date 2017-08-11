@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+ul li{
+    list-style: none;
+}
+#main{
+    width: 410px;
+    border: 1px solid black;
+    margin: 100px auto;
+}
+#time{
+    padding: 5px;
+}
+#time li{
+    width: 50px;
+    float: left;
+    height: 70px;
+    overflow: hidden;
+    position: relative;
+}
+#time li img{
+    width: 50px;
+    height: 70px;
+    /*display: block; */
+}
+.item{
+    position: absolute;
+    top:0;
+    left: 0;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    width: 252px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+}
+.itemList h2{
+    font-size: 22px;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 25px;
+    background: #63f7ff url(../images/ico1.gif) no-repeat 5px center;
+}
+.itemList .active{
+    background: orange url(../images/ico2.gif) no-repeat 5px center;
+}
+.activeLi{
+    background: #ccc;
+}
+.secItem li{
+    padding-left: 24px;
+    font-size: 16px;
+    height: 24px;
+    line-height: 24px;
+    border-bottom: 1px solid #313131;
+}
+.secItem{
+    display: none;
+}

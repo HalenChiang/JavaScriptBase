@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.main{
+    width: 972px;
+    margin: 140px auto;
+    border: 1px solid grey;
+    text-align: center;
+}
+.nav{
+    float: left;
+}
+#nav li a{
+    display: inline-block;
+    width: 148px;
+    height: 30px;
+    background: #e7e7e7 url(../images/fav.png) no-repeat center 14px;
+    padding-top: 51px;
+    border: 1px solid red;
+    border-color: #fff #fff #c6c6c6 #c6c6c6;
+}
+.container{
+    float: left;
+    position: relative;
+    height: 330px;
+}
+/*.container .top{
+    padding: 18px 33px 12px 0;
+}*/
+.img{
+    width: 270px;
+    height: 270px;
+    line-height: 300px;
+    text-align: center;
+    margin-right: 56px;
+    float: left;
+} 
+.img img{
+    margin-top: 36px;
+}
+.intro{
+    width: 463px;
+    float: left;
+    text-align: left;
+}  
+.time{
+    height: 28px;
+    line-height: 28px;
+    background: url(../images/clock.png) no-repeat 12px top;
+    font-size: 12px;
+    color: #94949c;
+    text-indent: 50px;
+    margin-top: 18px;
+}
+.discount{
+    color: #e71052;
+}
+.detail_time{
+    font-size: 14px;
+    font-weight: bold;
+    color: #00bdef;
+    margin-bottom: 9px;
+    margin-left: 12px;
+}
+.detail{
+    margin-top: 2px;
+    margin-bottom: 6px;
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.price{
+    margin-bottom: 13px;
+}
+.new{
+    color: #ef3163;
+    font-size: 14px;
+    float: left;
+}
+.people{
+    float: right;
+    color: #94949c;
+}
+.num{
+    color: #00bdef;
+    font-size: 13px;
+    font-weight: bold;
+}
+.bottom{
+    position: absolute;
+    bottom: 0px;
+}
+#bottom{
+    width: 822px;
+}
+#bottom li{
+    width: 33.088%;
+    border: 1px solid white;
+    background: black;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    float: left;
+    white-space: nowrap;
+}
+#bottom li a{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: "微软雅黑";
+}
+.active{
+    background-color: white !important;
+    border: 1px solid grey !important;
+    border-right-color: white !important;
+}

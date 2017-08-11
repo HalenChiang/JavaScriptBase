@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    list-style: none;
+}
+.main{
+    width: 504px;
+    padding: 10px;
+    margin: 100px auto;
+    border: 1px solid grey;
+}
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.title, .star, .tips{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.must{
+    color: red;
+}
+.star li{
+    float: left;
+    cursor: pointer;
+    padding:0 5px;
+}
+.star li img{
+    vertical-align: text-top;
+}
+.tips{
+    margin-left: 10px;
+    color: #ef7300;
+    font-weight: bold;
+}
+/*.star{
+    border: 1px solid red;
+}*/

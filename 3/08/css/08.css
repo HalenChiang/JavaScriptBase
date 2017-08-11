@@ -1,0 +1,39 @@
+div, li, p{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    list-style: none;
+    font-size: 12px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    width: 600px;
+    height: 300px;
+    margin: 200px auto;
+    padding: 10px;
+    border: 1px solid red;
+}
+.main ul li{
+    width: 56px;
+    padding: 7px 15px;
+    position: relative;
+    float: left;
+}
+.classes{
+    color: #9c9c9c;
+}
+.itemBlock{
+    width: 233px;
+    height: 143px;
+    background: white url(../images/two.png) no-repeat;
+    display: none;
+    position: absolute;
+    top: -145px;
+    left: 10px;
+    /*z-index: 5;*/
+}
