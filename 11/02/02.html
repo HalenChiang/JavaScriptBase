@@ -1,86 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>倒计时抢购商品</title>
+	<title>文字搬运工</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/02.css">
 </head>
 <body>
-<div class="main">
-    <div class="top">
-        <p class="time">限购时间</p>
-        <ul id="pro_list" class="pro_list clearfix">
-            <li>
-                <div class="item">
-                    <p class="future bold">
-                        <input type="text" name="time" id="time" value="August 10, 2017 14:23:00">
-                        <a href="javascript:;">确定</a>
-                    </p>
-                    <p class="remain">剩余00天00时00分00秒</p>
-                    <p class="img">
-                        <img src="images/big1.png">
-                    </p>
-                    <p class="intro">疯狂559，美的爆款隐藏式面板下拉门微波炉</p>
-                    <p class="price">抢购价：<span class="money">￥1.00</span></p>
-                </div>
-            </li>
-            <li>
-                <div class="item">
-                    <p class="future">
-                        <input type="text" name="time" id="time" value="August 10, 2017 14:23:00">
-                        <a href="javascript:;">确定</a>
-                    </p>
-                    <p class="remain">剩余00天00时00分00秒</p>
-                    <p class="img">
-                        <img src="images/big2.png">
-                    </p>
-                    <p class="intro">疯狂559，美的爆款隐藏式面板下拉门微波炉</p>
-                    <p class="price">抢购价：<span class="money">￥1.00</span></p>
-                </div>
-            </li>
-            <li>
-                <div class="item">
-                    <p class="future">
-                        <input type="text" name="time" id="time" value="August 10, 2017 14:23:00">
-                        <a href="javascript:;">确定</a>
-                    </p>
-                    <p class="remain">剩余00天00时00分00秒</p>
-                    <p class="img">
-                        <img src="images/big3.png">
-                    </p>
-                    <p class="intro">疯狂559，美的爆款隐藏式面板下拉门微波炉</p>
-                    <p class="price">抢购价：<span class="money">￥1.00</span></p>
-                </div>
-            </li>
-            <li>
-                <div class="item">
-                    <p class="future">
-                        <input type="text" name="time" id="time" value="August 10, 2017 14:23:00">
-                        <a href="javascript:;">确定</a>
-                    </p>
-                    <p class="remain">剩余00天00时00分00秒</p>
-                    <p class="img">
-                        <img src="images/big4.png">
-                    </p>
-                    <p class="intro">疯狂559，美的爆款隐藏式面板下拉门微波炉</p>
-                    <p class="price">抢购价：<span class="money">￥1.00</span></p>
-                </div>
-            </li>
+<div class="main clearfix">
+    <div id="left">
+        <p contenteditable="true">现在由于流动频繁，学校与单位、人才之间的档案转接手续有的时候不是那么完善，学校或者单位有的时候不一定将派遣证放入你的档案，所以保险起见，最好将你手中的报到证放入档案，用于备案招工手续，和参加工作的初始认定。就是说一定要确保报到证和派遣证在档案中至少有一份原件存档。
+        </p>
+    </div>
+    <div class="center">
+        <a href="javascript:;" id="change">文字右移</a>
+        <p id="page">0 / 0</p>
+        <ul id="scroll" class="clearfix">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
         </ul>
     </div>
-    <div class="bottom">
-        <table>
-            <thead>
-                <tr class="bold">
-                    <th width="30%">商品名称</th>
-                    <th width="30%">价钱</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody id="itemCon">
-            </tbody>
-        </table>
-        <p id="total">总价：<span class="money">00.00</span>元</p>
+    <div id="right">
+        <p>
+        </p>
     </div>
 </div>
 <script type="text/javascript" src="js/02.js"></script>
