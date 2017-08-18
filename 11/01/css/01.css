@@ -2,10 +2,101 @@
     margin: 0px;
     padding: 0px;
 }
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
 #main{
-    width: 410px;
+    width: 603px;
+    padding: 54px 14px 21px 18px;
     border: 1px solid black;
     margin: 100px auto;
+    background: #efefe7;
+    font-size: 16px;
+    position: relative;
+}
+#container{
+    width: 458px;
+    background: white;
+    padding: 20px;
+}
+#container p{
+    line-height: 28px;
+}
+#container, #nav{
+    float: left;
+}
+#nav{
+    margin-left: 12px;
+}
+#nav a{
+    display: inline-block;
+    color: #fff;
+}
+#nav a, #nav ul li, #tab li{
+    width: 80px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;  
+    cursor: pointer;
+}
+#nav a, #nav ul li{
+    background: #c0c0c0;
+}
+#win{
+    padding: 20px;
+    min-width: 460px;
+    position: absolute;
+    top: 255px;
+    left: 0;
+    border: 10px solid #e71063;
+    background: #e7e7b5;
+    display: none;
+}
+#tab li{
+    float: left;
+}
+.top{
+    border-bottom: 2px solid #e73100;
+    position: relative;
+}
+#close{
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    cursor: pointer;
+}
+.tab_con{
+    padding-top: 20px;
+}
+.tab_con:last-child{
+    display: none;
+}
+.tab_con input[type="text"]{
+    width: 180px;
+    height: 30px;
+}
+.tab_con input[type="button"]{
+    width: 40px;
+    height: 30px;
+}
+#nav ul{
+    display: none;
+}
+.active_nav{
+    background: #e73100 !important;
+    color: #fff !important;
 }
 .hightLight{
     background: orange;

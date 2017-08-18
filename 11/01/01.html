@@ -6,13 +6,38 @@
 	<link rel="stylesheet" type="text/css" href="css/01.css">
 </head>
 <body>
-<div id="main">
-   <input type="text" name="searchTxt" id="searchTxt" />
-   <input type="text" name="changeTxt" id="changeTxt" />
-   <input type="button" value="替换" id="change">
-   <p id="con">
-       妙味JS基础课程，让你对JS基础有一个全新的认识。 如果你拿不准自己是否处在JS基础阶段，不妨看看这里《你需要从JS基础开始学起吗》
-   </p>
+<div id="main" class="clearfix">
+   <div id="container">
+        <p>妙味课堂是北京妙味趣学信息技术有限公司旗下的IT培训品牌。创办多年来我们一直恪守住IT培训的原则与底限，扎扎实实研发课程、不断提升服务质量，在公司需求和学员进度中巧妙把握平衡，帮助学员打下坚实技术基础，不断向各大IT公司输送优秀开发人才！
+        </p>
+   </div>
+   <div id="nav">
+        <a href="javascript:;" id="open">展开</a>
+        <ul>
+            <li class="active_nav">查找</li>
+            <li>替换</li>
+        </ul>
+   </div>
+   <div id="win">
+        <div class="top">
+            <span id="close">X</span>
+            <ul id="tab" class="clearfix">
+                <li class="active_nav">查找</li>
+                <li>替换</li>
+            </ul>
+        </div>
+        <div id="bottom">
+            <div class="tab_con">
+                <input type="text" name="lookupTxt" id="txt0">
+                <input type="button" value="查找" id="look">
+            </div>
+            <div class="tab_con">
+                <input type="text" name="lookupTxt" id="txt1">
+                <input type="text" name="lookupTxt" id="txt2">
+                <input type="button" value="替换" id="change">
+            </div>
+        </div>
+   </div>
 </div>
 <script type="text/javascript" src="js/01.js"></script>
 </body>
